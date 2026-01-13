@@ -7,15 +7,6 @@ import Letter from "./component/letter";
 import Final from "./component/final";
 import { MusicProvider,useMusic } from "./component/MusicContext";
 
-// const MusicStarter = ({ children }) => {
-//   const { startMusic } = useMusic();
-
-//   return (
-//     <div onClick={startMusic} onTouchStart={startMusic}>
-//       {children}
-//     </div>
-//   );
-// };
 
 export default function App() {
   const { startMusic } = useMusic();
